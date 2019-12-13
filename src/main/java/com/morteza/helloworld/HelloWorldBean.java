@@ -1,9 +1,9 @@
-package com.morteza;
+package com.morteza.helloworld;
 
 public class HelloWorldBean {
 
     private String message;
-    public HelloWorldBean(String message) {
+    HelloWorldBean(String message) {
         this.message = message;
     }
 
