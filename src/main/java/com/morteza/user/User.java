@@ -8,6 +8,9 @@ public class User {
     private String name;
     private Date birthDate;
 
+    public User() {
+    }
+
     User(Integer id, String name, Date birthDate) {
         this.id = id;
         this.name = name;
@@ -46,4 +49,5 @@ public class User {
                 ", birthDate=" + birthDate +
                 '}';
     }
+
 }
