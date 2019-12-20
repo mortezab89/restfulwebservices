@@ -13,7 +13,6 @@ public class HelloWorldController {
     @Autowired
     private ResourceBundleMessageSource messageSource;
 
-
 //    @RequestMapping(method = RequestMethod.GET, path = "/hello-world")
     @GetMapping(path = "/hello-world")
     public String helloWorld(){
