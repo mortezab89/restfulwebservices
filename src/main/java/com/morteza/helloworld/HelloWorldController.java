@@ -34,7 +34,7 @@ public class HelloWorldController {
         return messageSource.getMessage("good.morning.message", null, locale);
     }
 
-    @GetMapping("/error")
+    @GetMapping("/errorr")
     public String error(@RequestHeader(name = "Accept-Language", required = false) Locale locale){
         return messageSource.getMessage("error", null, locale);
     }
